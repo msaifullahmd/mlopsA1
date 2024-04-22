@@ -21,7 +21,7 @@ model.fit(X_train, y_train)
 def predict():
     # Get age from the request's body
     request_data = request.get_json()
-    print("request_data")
+    
     age = request_data['age']
     
     # Ensure age is in the form of a 2D array for sklearn
