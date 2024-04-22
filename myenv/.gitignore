@@ -1,3 +1,5 @@
+lib/
+bin/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -134,3 +136,4 @@ cython_debug/
 
 # VS Code settings
 .vscode/
+
